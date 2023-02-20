@@ -1,0 +1,477 @@
+Initialized native services in: /home/gabi/.gradle/native
+Initialized jansi services in: /home/gabi/.gradle/native
+The client will now receive all logging from the daemon (pid: 22968). The daemon log file: /home/gabi/.gradle/daemon/7.5.1/daemon-22968.out.log
+Starting 13th build in daemon [uptime: 37 mins 51.41 secs, performance: 100%, non-heap usage: 23% of 256 MiB]
+Using 4 worker leases.
+Now considering [/home/gabi/git/demonstrate-wpilib-log-bug] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file '/home/gabi/git/demonstrate-wpilib-log-bug/settings.gradle'.
+Projects loaded. Root project using build file '/home/gabi/git/demonstrate-wpilib-log-bug/build.gradle'.
+Included projects: [root project 'demonstrate-wpilib-log-bug']
+
+> Configure project :
+Evaluating root project 'demonstrate-wpilib-log-bug' using build file '/home/gabi/git/demonstrate-wpilib-log-bug/build.gradle'.
+All projects evaluated.
+Descriptor Register: roboRio
+Starting process 'command '/home/gabi/wpilib/2023/roborio/bin/arm-frc2023-linux-gnueabi-g++''. Working directory: /home/gabi/wpilib/2023/roborio/bin Command: /home/gabi/wpilib/2023/roborio/bin/arm-frc2023-linux-gnueabi-g++ -dM -E -v -
+Successfully started process 'command '/home/gabi/wpilib/2023/roborio/bin/arm-frc2023-linux-gnueabi-g++''
+Starting process 'command '/home/gabi/wpilib/2023/roborio/bin/arm-frc2023-linux-gnueabi-gcc''. Working directory: /home/gabi/wpilib/2023/roborio/bin Command: /home/gabi/wpilib/2023/roborio/bin/arm-frc2023-linux-gnueabi-gcc -dM -E -v -
+Successfully started process 'command '/home/gabi/wpilib/2023/roborio/bin/arm-frc2023-linux-gnueabi-gcc''
+Starting process 'command '/usr/bin/gcc''. Working directory: /usr/bin Command: /usr/bin/gcc -m64 -dM -E -v -
+Successfully started process 'command '/usr/bin/gcc''
+Task name matched 'runFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExe'
+Selected primary task 'runFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExe' from project :
+Transforming opencv-cpp-4.6.0-4-linuxx86-64.zip (edu.wpi.first.thirdparty.frc2023.opencv:opencv-cpp:4.6.0-4) with UnzipTransform
+Caching disabled for UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/thirdparty/frc2023/opencv/opencv-cpp/4.6.0-4/opencv-cpp-4.6.0-4-linuxx86-64.zip because:
+  Build cache is disabled
+  Caching not enabled.
+Skipping UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/thirdparty/frc2023/opencv/opencv-cpp/4.6.0-4/opencv-cpp-4.6.0-4-linuxx86-64.zip as it is up-to-date.
+Transforming apriltag-cpp-2023.3.2-linuxx86-64.zip (edu.wpi.first.apriltag:apriltag-cpp:2023.3.2) with UnzipTransform
+Caching disabled for UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/apriltag/apriltag-cpp/2023.3.2/apriltag-cpp-2023.3.2-linuxx86-64.zip because:
+  Build cache is disabled
+  Caching not enabled.
+Skipping UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/apriltag/apriltag-cpp/2023.3.2/apriltag-cpp-2023.3.2-linuxx86-64.zip as it is up-to-date.
+Transforming cscore-cpp-2023.3.2-linuxx86-64.zip (edu.wpi.first.cscore:cscore-cpp:2023.3.2) with UnzipTransform
+Caching disabled for UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/cscore/cscore-cpp/2023.3.2/cscore-cpp-2023.3.2-linuxx86-64.zip because:
+  Build cache is disabled
+  Caching not enabled.
+Skipping UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/cscore/cscore-cpp/2023.3.2/cscore-cpp-2023.3.2-linuxx86-64.zip as it is up-to-date.
+Transforming cameraserver-cpp-2023.3.2-linuxx86-64.zip (edu.wpi.first.cameraserver:cameraserver-cpp:2023.3.2) with UnzipTransform
+Caching disabled for UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/cameraserver/cameraserver-cpp/2023.3.2/cameraserver-cpp-2023.3.2-linuxx86-64.zip because:
+  Build cache is disabled
+  Caching not enabled.
+Skipping UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/cameraserver/cameraserver-cpp/2023.3.2/cameraserver-cpp-2023.3.2-linuxx86-64.zip as it is up-to-date.
+Transforming wpiutil-cpp-2023.3.2-linuxx86-64.zip (edu.wpi.first.wpiutil:wpiutil-cpp:2023.3.2) with UnzipTransform
+Caching disabled for UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/wpiutil/wpiutil-cpp/2023.3.2/wpiutil-cpp-2023.3.2-linuxx86-64.zip because:
+  Build cache is disabled
+  Caching not enabled.
+Skipping UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/wpiutil/wpiutil-cpp/2023.3.2/wpiutil-cpp-2023.3.2-linuxx86-64.zip as it is up-to-date.
+Transforming wpinet-cpp-2023.3.2-linuxx86-64.zip (edu.wpi.first.wpinet:wpinet-cpp:2023.3.2) with UnzipTransform
+Caching disabled for UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/wpinet/wpinet-cpp/2023.3.2/wpinet-cpp-2023.3.2-linuxx86-64.zip because:
+  Build cache is disabled
+  Caching not enabled.
+Skipping UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/wpinet/wpinet-cpp/2023.3.2/wpinet-cpp-2023.3.2-linuxx86-64.zip as it is up-to-date.
+Transforming wpimath-cpp-2023.3.2-linuxx86-64.zip (edu.wpi.first.wpimath:wpimath-cpp:2023.3.2) with UnzipTransform
+Caching disabled for UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/wpimath/wpimath-cpp/2023.3.2/wpimath-cpp-2023.3.2-linuxx86-64.zip because:
+  Build cache is disabled
+  Caching not enabled.
+Skipping UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/wpimath/wpimath-cpp/2023.3.2/wpimath-cpp-2023.3.2-linuxx86-64.zip as it is up-to-date.
+Transforming hal-cpp-2023.3.2-linuxx86-64.zip (edu.wpi.first.hal:hal-cpp:2023.3.2) with UnzipTransform
+Caching disabled for UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/hal/hal-cpp/2023.3.2/hal-cpp-2023.3.2-linuxx86-64.zip because:
+  Build cache is disabled
+  Caching not enabled.
+Skipping UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/hal/hal-cpp/2023.3.2/hal-cpp-2023.3.2-linuxx86-64.zip as it is up-to-date.
+Transforming ntcore-cpp-2023.3.2-linuxx86-64.zip (edu.wpi.first.ntcore:ntcore-cpp:2023.3.2) with UnzipTransform
+Caching disabled for UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/ntcore/ntcore-cpp/2023.3.2/ntcore-cpp-2023.3.2-linuxx86-64.zip because:
+  Build cache is disabled
+  Caching not enabled.
+Skipping UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/ntcore/ntcore-cpp/2023.3.2/ntcore-cpp-2023.3.2-linuxx86-64.zip as it is up-to-date.
+Transforming wpilibc-cpp-2023.3.2-linuxx86-64.zip (edu.wpi.first.wpilibc:wpilibc-cpp:2023.3.2) with UnzipTransform
+Caching disabled for UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/wpilibc/wpilibc-cpp/2023.3.2/wpilibc-cpp-2023.3.2-linuxx86-64.zip because:
+  Build cache is disabled
+  Caching not enabled.
+Skipping UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/wpilibc/wpilibc-cpp/2023.3.2/wpilibc-cpp-2023.3.2-linuxx86-64.zip as it is up-to-date.
+Transforming wpilibNewCommands-cpp-2023.3.2-linuxx86-64.zip (edu.wpi.first.wpilibNewCommands:wpilibNewCommands-cpp:2023.3.2) with UnzipTransform
+Caching disabled for UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/wpilibNewCommands/wpilibNewCommands-cpp/2023.3.2/wpilibNewCommands-cpp-2023.3.2-linuxx86-64.zip because:
+  Build cache is disabled
+  Caching not enabled.
+Skipping UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/wpilibNewCommands/wpilibNewCommands-cpp/2023.3.2/wpilibNewCommands-cpp-2023.3.2-linuxx86-64.zip as it is up-to-date.
+Starting process 'command '/usr/bin/g++''. Working directory: /usr/bin Command: /usr/bin/g++ -m64 -dM -E -v -
+Successfully started process 'command '/usr/bin/g++''
+Starting process 'command '/usr/bin/g++''. Working directory: /usr/bin Command: /usr/bin/g++ -m64 -x c++ -dM -E -v -
+Successfully started process 'command '/usr/bin/g++''
+Transforming googletest-1.12.1-1-linuxx86-64static.zip (edu.wpi.first.thirdparty.frc2023:googletest:1.12.1-1) with UnzipTransform
+Caching disabled for UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/thirdparty/frc2023/googletest/1.12.1-1/googletest-1.12.1-1-linuxx86-64static.zip because:
+  Build cache is disabled
+  Caching not enabled.
+Skipping UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/thirdparty/frc2023/googletest/1.12.1-1/googletest-1.12.1-1-linuxx86-64static.zip as it is up-to-date.
+Tasks to be executed: [task ':compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramCpp', task ':compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramTestCpp', task ':linkFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExe', task ':frcUserProgramTestLinuxx86-64ReleaseGoogleTestExe', task ':installFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExe', task ':runFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExe']
+Tasks that were excluded: []
+Running wrapper inspector on project :
+Found gradle-wrapper.properties on :
+Resolve mutations for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramCpp (Thread[Execution worker,5,main]) started.
+:compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramCpp (Thread[included builds,5,main]) started.
+Resolve mutations for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramCpp (Thread[Execution worker,5,main]) completed. Took 0.005 secs.
+
+> Task :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramCpp
+Transforming wpilibNewCommands-cpp-2023.3.2-headers.zip (edu.wpi.first.wpilibNewCommands:wpilibNewCommands-cpp:2023.3.2) with UnzipTransform
+Caching disabled for UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/wpilibNewCommands/wpilibNewCommands-cpp/2023.3.2/wpilibNewCommands-cpp-2023.3.2-headers.zip because:
+  Build cache is disabled
+  Caching not enabled.
+Skipping UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/wpilibNewCommands/wpilibNewCommands-cpp/2023.3.2/wpilibNewCommands-cpp-2023.3.2-headers.zip as it is up-to-date.
+Transforming wpilibc-cpp-2023.3.2-headers.zip (edu.wpi.first.wpilibc:wpilibc-cpp:2023.3.2) with UnzipTransform
+Caching disabled for UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/wpilibc/wpilibc-cpp/2023.3.2/wpilibc-cpp-2023.3.2-headers.zip because:
+  Build cache is disabled
+  Caching not enabled.
+Skipping UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/wpilibc/wpilibc-cpp/2023.3.2/wpilibc-cpp-2023.3.2-headers.zip as it is up-to-date.
+Transforming ntcore-cpp-2023.3.2-headers.zip (edu.wpi.first.ntcore:ntcore-cpp:2023.3.2) with UnzipTransform
+Caching disabled for UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/ntcore/ntcore-cpp/2023.3.2/ntcore-cpp-2023.3.2-headers.zip because:
+  Build cache is disabled
+  Caching not enabled.
+Skipping UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/ntcore/ntcore-cpp/2023.3.2/ntcore-cpp-2023.3.2-headers.zip as it is up-to-date.
+Transforming hal-cpp-2023.3.2-headers.zip (edu.wpi.first.hal:hal-cpp:2023.3.2) with UnzipTransform
+Caching disabled for UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/hal/hal-cpp/2023.3.2/hal-cpp-2023.3.2-headers.zip because:
+  Build cache is disabled
+  Caching not enabled.
+Skipping UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/hal/hal-cpp/2023.3.2/hal-cpp-2023.3.2-headers.zip as it is up-to-date.
+Transforming wpimath-cpp-2023.3.2-headers.zip (edu.wpi.first.wpimath:wpimath-cpp:2023.3.2) with UnzipTransform
+Caching disabled for UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/wpimath/wpimath-cpp/2023.3.2/wpimath-cpp-2023.3.2-headers.zip because:
+  Build cache is disabled
+  Caching not enabled.
+Skipping UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/wpimath/wpimath-cpp/2023.3.2/wpimath-cpp-2023.3.2-headers.zip as it is up-to-date.
+Transforming wpinet-cpp-2023.3.2-headers.zip (edu.wpi.first.wpinet:wpinet-cpp:2023.3.2) with UnzipTransform
+Caching disabled for UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/wpinet/wpinet-cpp/2023.3.2/wpinet-cpp-2023.3.2-headers.zip because:
+  Build cache is disabled
+  Caching not enabled.
+Skipping UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/wpinet/wpinet-cpp/2023.3.2/wpinet-cpp-2023.3.2-headers.zip as it is up-to-date.
+Transforming wpiutil-cpp-2023.3.2-headers.zip (edu.wpi.first.wpiutil:wpiutil-cpp:2023.3.2) with UnzipTransform
+Caching disabled for UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/wpiutil/wpiutil-cpp/2023.3.2/wpiutil-cpp-2023.3.2-headers.zip because:
+  Build cache is disabled
+  Caching not enabled.
+Skipping UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/wpiutil/wpiutil-cpp/2023.3.2/wpiutil-cpp-2023.3.2-headers.zip as it is up-to-date.
+Transforming cameraserver-cpp-2023.3.2-headers.zip (edu.wpi.first.cameraserver:cameraserver-cpp:2023.3.2) with UnzipTransform
+Caching disabled for UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/cameraserver/cameraserver-cpp/2023.3.2/cameraserver-cpp-2023.3.2-headers.zip because:
+  Build cache is disabled
+  Caching not enabled.
+Skipping UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/cameraserver/cameraserver-cpp/2023.3.2/cameraserver-cpp-2023.3.2-headers.zip as it is up-to-date.
+Transforming cscore-cpp-2023.3.2-headers.zip (edu.wpi.first.cscore:cscore-cpp:2023.3.2) with UnzipTransform
+Caching disabled for UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/cscore/cscore-cpp/2023.3.2/cscore-cpp-2023.3.2-headers.zip because:
+  Build cache is disabled
+  Caching not enabled.
+Skipping UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/cscore/cscore-cpp/2023.3.2/cscore-cpp-2023.3.2-headers.zip as it is up-to-date.
+Transforming apriltag-cpp-2023.3.2-headers.zip (edu.wpi.first.apriltag:apriltag-cpp:2023.3.2) with UnzipTransform
+Caching disabled for UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/apriltag/apriltag-cpp/2023.3.2/apriltag-cpp-2023.3.2-headers.zip because:
+  Build cache is disabled
+  Caching not enabled.
+Skipping UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/apriltag/apriltag-cpp/2023.3.2/apriltag-cpp-2023.3.2-headers.zip as it is up-to-date.
+Transforming opencv-cpp-4.6.0-4-headers.zip (edu.wpi.first.thirdparty.frc2023.opencv:opencv-cpp:4.6.0-4) with UnzipTransform
+Caching disabled for UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/thirdparty/frc2023/opencv/opencv-cpp/4.6.0-4/opencv-cpp-4.6.0-4-headers.zip because:
+  Build cache is disabled
+  Caching not enabled.
+Skipping UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/thirdparty/frc2023/opencv/opencv-cpp/4.6.0-4/opencv-cpp-4.6.0-4-headers.zip as it is up-to-date.
+Transforming googletest-1.12.1-1-headers.zip (edu.wpi.first.thirdparty.frc2023:googletest:1.12.1-1) with UnzipTransform
+Caching disabled for UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/thirdparty/frc2023/googletest/1.12.1-1/googletest-1.12.1-1-headers.zip because:
+  Build cache is disabled
+  Caching not enabled.
+Skipping UnzipTransform: /home/gabi/wpilib/2023/maven/edu/wpi/first/thirdparty/frc2023/googletest/1.12.1-1/googletest-1.12.1-1-headers.zip as it is up-to-date.
+After parsing the source files, Gradle cannot calculate the exact set of include files for ':compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramCpp'. Every file in the include search path will be considered a header dependency.
+adding files in /home/gabi/git/demonstrate-wpilib-log-bug/src/main/include to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramCpp
+adding files in /home/gabi/.gradle/caches/transforms-3/4e0f3b94bd8ac97c2ab9d49188bcb131/transformed/wpilibNewCommands-cpp-2023.3.2-headers to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramCpp
+adding files in /home/gabi/.gradle/caches/transforms-3/b13143e2fc08e0317b398ec2a8f44613/transformed/wpilibc-cpp-2023.3.2-headers to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramCpp
+adding files in /home/gabi/.gradle/caches/transforms-3/2e59910a0896c17dc726a2f75baf8148/transformed/ntcore-cpp-2023.3.2-headers to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramCpp
+adding files in /home/gabi/.gradle/caches/transforms-3/1ef1484e166fb8b2df76e7c6a1356541/transformed/hal-cpp-2023.3.2-headers to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramCpp
+adding files in /home/gabi/.gradle/caches/transforms-3/4e43427659fcc529b5727adbe717b868/transformed/wpimath-cpp-2023.3.2-headers to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramCpp
+adding files in /home/gabi/.gradle/caches/transforms-3/a0f32f5baa7ea2e6df647e230a803f2f/transformed/wpinet-cpp-2023.3.2-headers to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramCpp
+adding files in /home/gabi/.gradle/caches/transforms-3/16607d10970caa91674185028bb0e9d3/transformed/wpiutil-cpp-2023.3.2-headers to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramCpp
+adding files in /home/gabi/.gradle/caches/transforms-3/e85273ff5cc04d9c078e01b8f173b150/transformed/cameraserver-cpp-2023.3.2-headers to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramCpp
+adding files in /home/gabi/.gradle/caches/transforms-3/9464b49958811f2a5549e2d5d8a8816e/transformed/cscore-cpp-2023.3.2-headers to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramCpp
+adding files in /home/gabi/.gradle/caches/transforms-3/107c82d353fef6c5867ba97d7098f44b/transformed/apriltag-cpp-2023.3.2-headers to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramCpp
+adding files in /home/gabi/.gradle/caches/transforms-3/3fc7ac9d8d6eeb545808ab7d27c12d86/transformed/opencv-cpp-4.6.0-4-headers to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramCpp
+adding files in /home/gabi/.gradle/caches/transforms-3/d9ec2318b82668368bde5673ac1604b0/transformed/googletest-1.12.1-1-headers to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramCpp
+adding files in /usr/include/c++/12.2.1 to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramCpp
+adding files in /usr/include/c++/12.2.1/x86_64-pc-linux-gnu to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramCpp
+adding files in /usr/include/c++/12.2.1/backward to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramCpp
+adding files in /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramCpp
+adding files in /usr/local/include to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramCpp
+adding files in /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramCpp
+adding files in /usr/include to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramCpp
+Caching disabled for task ':compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramCpp' because:
+  Build cache is disabled
+Skipping task ':compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramCpp' as it is up-to-date.
+
+> Task :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramCpp UP-TO-DATE
+Resolve mutations for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramTestCpp (Thread[Execution worker,5,main]) started.
+Resolve mutations for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramTestCpp (Thread[Execution worker,5,main]) completed. Took 0.0 secs.
+:compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramTestCpp (Thread[Execution worker,5,main]) started.
+:compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramCpp (Thread[included builds,5,main]) completed. Took 2.604 secs.
+
+> Task :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramTestCpp UP-TO-DATE
+After parsing the source files, Gradle cannot calculate the exact set of include files for ':compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramTestCpp'. Every file in the include search path will be considered a header dependency.
+adding files in /home/gabi/git/demonstrate-wpilib-log-bug/src/frcUserProgramTest/headers to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramTestCpp
+file or directory '/home/gabi/git/demonstrate-wpilib-log-bug/src/frcUserProgramTest/headers', not found
+adding files in /home/gabi/.gradle/caches/transforms-3/4e0f3b94bd8ac97c2ab9d49188bcb131/transformed/wpilibNewCommands-cpp-2023.3.2-headers to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramTestCpp
+adding files in /home/gabi/.gradle/caches/transforms-3/b13143e2fc08e0317b398ec2a8f44613/transformed/wpilibc-cpp-2023.3.2-headers to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramTestCpp
+adding files in /home/gabi/.gradle/caches/transforms-3/2e59910a0896c17dc726a2f75baf8148/transformed/ntcore-cpp-2023.3.2-headers to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramTestCpp
+adding files in /home/gabi/.gradle/caches/transforms-3/1ef1484e166fb8b2df76e7c6a1356541/transformed/hal-cpp-2023.3.2-headers to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramTestCpp
+adding files in /home/gabi/.gradle/caches/transforms-3/4e43427659fcc529b5727adbe717b868/transformed/wpimath-cpp-2023.3.2-headers to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramTestCpp
+adding files in /home/gabi/.gradle/caches/transforms-3/a0f32f5baa7ea2e6df647e230a803f2f/transformed/wpinet-cpp-2023.3.2-headers to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramTestCpp
+adding files in /home/gabi/.gradle/caches/transforms-3/16607d10970caa91674185028bb0e9d3/transformed/wpiutil-cpp-2023.3.2-headers to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramTestCpp
+adding files in /home/gabi/.gradle/caches/transforms-3/e85273ff5cc04d9c078e01b8f173b150/transformed/cameraserver-cpp-2023.3.2-headers to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramTestCpp
+adding files in /home/gabi/.gradle/caches/transforms-3/9464b49958811f2a5549e2d5d8a8816e/transformed/cscore-cpp-2023.3.2-headers to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramTestCpp
+adding files in /home/gabi/.gradle/caches/transforms-3/107c82d353fef6c5867ba97d7098f44b/transformed/apriltag-cpp-2023.3.2-headers to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramTestCpp
+adding files in /home/gabi/.gradle/caches/transforms-3/3fc7ac9d8d6eeb545808ab7d27c12d86/transformed/opencv-cpp-4.6.0-4-headers to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramTestCpp
+adding files in /home/gabi/.gradle/caches/transforms-3/d9ec2318b82668368bde5673ac1604b0/transformed/googletest-1.12.1-1-headers to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramTestCpp
+adding files in /home/gabi/git/demonstrate-wpilib-log-bug/src/main/include to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramTestCpp
+adding files in /usr/include/c++/12.2.1 to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramTestCpp
+adding files in /usr/include/c++/12.2.1/x86_64-pc-linux-gnu to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramTestCpp
+adding files in /usr/include/c++/12.2.1/backward to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramTestCpp
+adding files in /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramTestCpp
+adding files in /usr/local/include to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramTestCpp
+adding files in /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramTestCpp
+adding files in /usr/include to header dependencies for :compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramTestCpp
+Caching disabled for task ':compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramTestCpp' because:
+  Build cache is disabled
+Skipping task ':compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramTestCpp' as it is up-to-date.
+:compileFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExeFrcUserProgramTestCpp (Thread[Execution worker,5,main]) completed. Took 0.906 secs.
+Resolve mutations for :linkFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExe (Thread[included builds,5,main]) started.
+Resolve mutations for :linkFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExe (Thread[included builds,5,main]) completed. Took 0.0 secs.
+:linkFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExe (Thread[Execution worker,5,main]) started.
+
+> Task :linkFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExe
+Caching disabled for task ':linkFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExe' because:
+  Build cache is disabled
+  Not made cacheable, yet
+Task ':linkFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExe' is not up-to-date because:
+  Input property 'source' file /home/gabi/git/demonstrate-wpilib-log-bug/build/objs/frcUserProgramTest/linuxx86-64/release/frcUserProgramCpp/9760xtgdau9jsoxxi90ozrpww/Robot.o has changed.
+Watching 44 directories to track changes
+See file:///home/gabi/git/demonstrate-wpilib-log-bug/build/tmp/linkFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExe/output.txt for all output for linkFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExe.
+Starting process 'command '/usr/bin/g++''. Working directory: /home/gabi/git/demonstrate-wpilib-log-bug Command: /usr/bin/g++ @/home/gabi/git/demonstrate-wpilib-log-bug/build/tmp/linkFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExe/options.txt -m64
+Successfully started process 'command '/usr/bin/g++''
+
+Finished linkFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExe, see full log file:///home/gabi/git/demonstrate-wpilib-log-bug/build/tmp/linkFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExe/output.txt.
+Watching 45 directories to track changes
+Resolve mutations for :frcUserProgramTestLinuxx86-64ReleaseGoogleTestExe (Thread[included builds,5,main]) started.
+Resolve mutations for :frcUserProgramTestLinuxx86-64ReleaseGoogleTestExe (Thread[included builds,5,main]) completed. Took 0.0 secs.
+:frcUserProgramTestLinuxx86-64ReleaseGoogleTestExe (Thread[Execution worker Thread 2,5,main]) started.
+:linkFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExe (Thread[Execution worker,5,main]) completed. Took 1.226 secs.
+
+> Task :frcUserProgramTestLinuxx86-64ReleaseGoogleTestExe
+Skipping task ':frcUserProgramTestLinuxx86-64ReleaseGoogleTestExe' as it has no actions.
+:frcUserProgramTestLinuxx86-64ReleaseGoogleTestExe (Thread[Execution worker Thread 2,5,main]) completed. Took 0.0 secs.
+Resolve mutations for :installFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExe (Thread[Execution worker Thread 2,5,main]) started.
+Resolve mutations for :installFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExe (Thread[Execution worker Thread 2,5,main]) completed. Took 0.0 secs.
+:installFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExe (Thread[Execution worker Thread 2,5,main]) started.
+
+> Task :installFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExe
+Caching disabled for task ':installFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExe' because:
+  Build cache is disabled
+  Not worth caching
+Task ':installFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExe' is not up-to-date because:
+  Input property '$1' file /home/gabi/git/demonstrate-wpilib-log-bug/build/exe/frcUserProgramTest/linuxx86-64/release/frcUserProgramTest has changed.
+  Input property 'inputFileIfExists' file /home/gabi/git/demonstrate-wpilib-log-bug/build/exe/frcUserProgramTest/linuxx86-64/release/frcUserProgramTest has changed.
+Watching 43 directories to track changes
+Watching 45 directories to track changes
+:installFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExe (Thread[Execution worker Thread 2,5,main]) completed. Took 5.719 secs.
+Resolve mutations for :runFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExe (Thread[Execution worker Thread 3,5,main]) started.
+Resolve mutations for :runFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExe (Thread[Execution worker Thread 3,5,main]) completed. Took 0.0 secs.
+:runFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExe (Thread[Execution worker Thread 2,5,main]) started.
+producer locations for task group 0 (Thread[included builds,5,main]) started.
+producer locations for task group 0 (Thread[included builds,5,main]) completed. Took 0.0 secs.
+
+> Task :runFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExe FAILED
+Caching disabled for task ':runFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExe' because:
+  Build cache is disabled
+  Not made cacheable, yet
+Task ':runFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExe' is not up-to-date because:
+  Input property 'installTask.outputs' file /home/gabi/git/demonstrate-wpilib-log-bug/build/install/frcUserProgramTest/linuxx86-64/release/lib/frcUserProgramTest has changed.
+Watching 44 directories to track changes
+Starting process 'command '/home/gabi/git/demonstrate-wpilib-log-bug/build/install/frcUserProgramTest/linuxx86-64/release/frcUserProgramTest''. Working directory: /home/gabi/git/demonstrate-wpilib-log-bug/build/test-results/frcUserProgramTest/linuxx86-64/release Command: /home/gabi/git/demonstrate-wpilib-log-bug/build/install/frcUserProgramTest/linuxx86-64/release/frcUserProgramTest 
+Successfully started process 'command '/home/gabi/git/demonstrate-wpilib-log-bug/build/install/frcUserProgramTest/linuxx86-64/release/frcUserProgramTest''
+HAL Extensions: No extensions found
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ElevatorSimulationTest
+[ RUN      ] ElevatorSimulationTest.Teleop
+Not loading CameraServerShared
+NT: Listening on NT3 port 1735, NT4 port 5810
+
+********** Robot program startup complete **********
+DataLog: Logging to '/home/gabi/git/demonstrate-wpilib-log-bug/build/test-results/frcUserProgramTest/linuxx86-64/release/FRC_TBD_9f48591f1ac8a6ac.wpilog'
+DataLog: Renamed log file from 'FRC_TBD_9f48591f1ac8a6ac.wpilog' to 'FRC_20230220_033700.wpilog'
+Default DisabledPeriodic() method... Override me!
+[       OK ] ElevatorSimulationTest.Teleop (50 ms)
+[----------] 1 test from ElevatorSimulationTest (50 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (50 ms total)
+[  PASSED  ] 1 test.
+Watching 45 directories to track changes
+:runFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExe (Thread[Execution worker Thread 2,5,main]) completed. Took 2.027 secs.
+Build Exception: class org.gradle.internal.exceptions.LocationAwareException -> Execution failed for task ':runFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExe'.
+Build Exception: class org.gradle.api.tasks.TaskExecutionException -> Execution failed for task ':runFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExe'.
+Build Exception: class org.gradle.api.GradleException -> There were failing tests. See the results at: file:///home/gabi/git/demonstrate-wpilib-log-bug/build/test-results/frcUserProgramTest/linuxx86-64/release/
+Build Exception: class org.gradle.process.internal.ExecException -> Process 'command '/home/gabi/git/demonstrate-wpilib-log-bug/build/install/frcUserProgramTest/linuxx86-64/release/frcUserProgramTest'' finished with non-zero exit value 139
+Exception Task: class org.gradle.nativeplatform.test.tasks.RunTestExecutable_Decorated -> runFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExe
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':runFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExe'.
+> There were failing tests. See the results at: file:///home/gabi/git/demonstrate-wpilib-log-bug/build/test-results/frcUserProgramTest/linuxx86-64/release/
+
+* Try:
+> Run with --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':runFrcUserProgramTestLinuxx86-64ReleaseGoogleTestExe'.
+        at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.lambda$executeIfValid$1(ExecuteActionsTaskExecuter.java:142)
+        at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:282)
+        at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:140)
+        at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:128)
+        at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:77)
+        at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+        at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+        at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+        at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:56)
+        at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+        at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+        at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+        at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+        at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+        at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:199)
+        at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+        at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+        at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+        at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+        at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:73)
+        at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+        at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:69)
+        at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:327)
+        at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:314)
+        at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:307)
+        at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:293)
+        at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:420)
+        at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:342)
+        at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+        at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+Caused by: org.gradle.api.GradleException: There were failing tests. See the results at: file:///home/gabi/git/demonstrate-wpilib-log-bug/build/test-results/frcUserProgramTest/linuxx86-64/release/
+        at org.gradle.nativeplatform.test.tasks.RunTestExecutable.handleTestFailures(RunTestExecutable.java:72)
+        at org.gradle.nativeplatform.test.tasks.RunTestExecutable.exec(RunTestExecutable.java:59)
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+        at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:125)
+        at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:58)
+        at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:51)
+        at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:29)
+        at org.gradle.api.internal.tasks.execution.TaskExecution$3.run(TaskExecution.java:236)
+        at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:29)
+        at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:26)
+        at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+        at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+        at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+        at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+        at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:47)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:68)
+        at org.gradle.api.internal.tasks.execution.TaskExecution.executeAction(TaskExecution.java:221)
+        at org.gradle.api.internal.tasks.execution.TaskExecution.executeActions(TaskExecution.java:204)
+        at org.gradle.api.internal.tasks.execution.TaskExecution.executeWithPreviousOutputFiles(TaskExecution.java:187)
+        at org.gradle.api.internal.tasks.execution.TaskExecution.execute(TaskExecution.java:165)
+        at org.gradle.internal.execution.steps.ExecuteStep.executeInternal(ExecuteStep.java:89)
+        at org.gradle.internal.execution.steps.ExecuteStep.access$000(ExecuteStep.java:40)
+        at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:53)
+        at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:50)
+        at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+        at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:199)
+        at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+        at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+        at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+        at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+        at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:73)
+        at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:50)
+        at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:40)
+        at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:68)
+        at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:38)
+        at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:41)
+        at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:74)
+        at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:55)
+        at org.gradle.internal.execution.steps.CreateOutputsStep.execute(CreateOutputsStep.java:51)
+        at org.gradle.internal.execution.steps.CreateOutputsStep.execute(CreateOutputsStep.java:29)
+        at org.gradle.internal.execution.steps.CaptureStateAfterExecutionStep.executeDelegateBroadcastingChanges(CaptureStateAfterExecutionStep.java:124)
+        at org.gradle.internal.execution.steps.CaptureStateAfterExecutionStep.execute(CaptureStateAfterExecutionStep.java:80)
+        at org.gradle.internal.execution.steps.CaptureStateAfterExecutionStep.execute(CaptureStateAfterExecutionStep.java:58)
+        at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:48)
+        at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:36)
+        at org.gradle.internal.execution.steps.BuildCacheStep.executeWithoutCache(BuildCacheStep.java:181)
+        at org.gradle.internal.execution.steps.BuildCacheStep.lambda$execute$1(BuildCacheStep.java:71)
+        at org.gradle.internal.Either$Right.fold(Either.java:175)
+        at org.gradle.internal.execution.caching.CachingState.fold(CachingState.java:59)
+        at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:69)
+        at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:47)
+        at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:36)
+        at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:25)
+        at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:36)
+        at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:22)
+        at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:110)
+        at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipUpToDateStep.java:56)
+        at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:56)
+        at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:38)
+        at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:73)
+        at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:44)
+        at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:37)
+        at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:27)
+        at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:89)
+        at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:50)
+        at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:114)
+        at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:57)
+        at org.gradle.internal.execution.steps.CaptureStateBeforeExecutionStep.execute(CaptureStateBeforeExecutionStep.java:76)
+        at org.gradle.internal.execution.steps.CaptureStateBeforeExecutionStep.execute(CaptureStateBeforeExecutionStep.java:50)
+        at org.gradle.internal.execution.steps.SkipEmptyWorkStep.executeWithNoEmptySources(SkipEmptyWorkStep.java:254)
+        at org.gradle.internal.execution.steps.SkipEmptyWorkStep.execute(SkipEmptyWorkStep.java:91)
+        at org.gradle.internal.execution.steps.SkipEmptyWorkStep.execute(SkipEmptyWorkStep.java:56)
+        at org.gradle.internal.execution.steps.RemoveUntrackedExecutionStateStep.execute(RemoveUntrackedExecutionStateStep.java:32)
+        at org.gradle.internal.execution.steps.RemoveUntrackedExecutionStateStep.execute(RemoveUntrackedExecutionStateStep.java:21)
+        at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.java:38)
+        at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:43)
+        at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:31)
+        at org.gradle.internal.execution.steps.AssignWorkspaceStep.lambda$execute$0(AssignWorkspaceStep.java:40)
+        at org.gradle.api.internal.tasks.execution.TaskExecution$4.withWorkspace(TaskExecution.java:281)
+        at org.gradle.internal.execution.steps.AssignWorkspaceStep.execute(AssignWorkspaceStep.java:40)
+        at org.gradle.internal.execution.steps.AssignWorkspaceStep.execute(AssignWorkspaceStep.java:30)
+        at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:37)
+        at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:27)
+        at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:44)
+        at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:33)
+        at org.gradle.internal.execution.impl.DefaultExecutionEngine$1.execute(DefaultExecutionEngine.java:76)
+        at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:139)
+        at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:128)
+        at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:77)
+        at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+        at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+        at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+        at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:56)
+        at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+        at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+        at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+        at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+        at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+        at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:199)
+        at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+        at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+        at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+        at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+        at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:73)
+        at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+        at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:69)
+        at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:327)
+        at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:314)
+        at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:307)
+        at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:293)
+        at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:420)
+        at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:342)
+        at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+        at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+Caused by: org.gradle.process.internal.ExecException: Process 'command '/home/gabi/git/demonstrate-wpilib-log-bug/build/install/frcUserProgramTest/linuxx86-64/release/frcUserProgramTest'' finished with non-zero exit value 139
+        at org.gradle.process.internal.DefaultExecHandle$ExecResultImpl.assertNormalExitValue(DefaultExecHandle.java:415)
+        at org.gradle.process.internal.DefaultExecAction.execute(DefaultExecAction.java:38)
+        at org.gradle.api.tasks.AbstractExecTask.exec(AbstractExecTask.java:73)
+        at org.gradle.nativeplatform.test.tasks.RunTestExecutable.exec(RunTestExecutable.java:57)
+        ... 116 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 16s
+5 actionable tasks: 3 executed, 2 up-to-date
+
+Publishing a build scan to scans.gradle.com requires accepting the Gradle Terms of Service defined at https://gradle.com/terms-of-service. Do you accept these terms? [yes, no] yes
+
+Gradle Terms of Service accepted.
+
+Publishing build scan...
+https://gradle.com/s/qoub57g7yvvqc

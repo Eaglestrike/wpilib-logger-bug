@@ -1,0 +1,37 @@
+> Task :runFrcUserProgramTestLinuxx86-64DebugGoogleTestExe
+HAL Extensions: No extensions found
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ElevatorSimulationTest
+[ RUN      ] ElevatorSimulationTest.Teleop
+Not loading CameraServerShared
+NT: Listening on NT3 port 1735, NT4 port 5810
+DataLog: Logging to '/home/gabi/git/demonstrate-wpilib-log-bug/build/test-results/frcUserProgramTest/linuxx86-64/debug/FRC_TBD_95abd34079cb83ad.wpilog'
+
+********** Robot program startup complete **********
+Default DisabledPeriodic() method... Override me!
+DataLog: Renamed log file from 'FRC_TBD_95abd34079cb83ad.wpilog' to 'FRC_20230220_054644.wpilog'
+[       OK ] ElevatorSimulationTest.Teleop (239 ms)
+[----------] 1 test from ElevatorSimulationTest (239 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (239 ms total)
+[  PASSED  ] 1 test.
+
+> Task :runFrcUserProgramTestLinuxx86-64DebugGoogleTestExe FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':runFrcUserProgramTestLinuxx86-64DebugGoogleTestExe'.
+> There were failing tests. See the results at: file:///home/gabi/git/demonstrate-wpilib-log-bug/build/test-results/frcUserProgramTest/linuxx86-64/debug/
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 9s
+13 actionable tasks: 1 executed, 12 up-to-date
